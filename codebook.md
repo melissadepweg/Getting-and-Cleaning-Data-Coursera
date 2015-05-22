@@ -25,6 +25,6 @@ The attached R script "run_analysis.R" does a variety of steps to create a tidy 
 4. Merges all 3 cleaned data sets into 1 data set.
   * This results in 10299 rows in 68 columns.
 5. Then it takes the merged data set and calculates an average of each mean or standard deviation measurement variable, grouping by subject and activity label. 
-  * This results in 180 rows in 68 columns as the number of subjects remain unchanged (1-30) and each subject performed 6 activities (30*6).
+  * This results in 180 rows in 68 columns as the number of subjects remain unchanged (1-30) and each subject performed 6 activities (30*6). All values range from -1 to 1.
 6. Writes the tidy data set to the user's working directory.
 
